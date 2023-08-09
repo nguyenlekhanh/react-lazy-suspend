@@ -5,18 +5,14 @@ import ContextUserReducer from './ContextUserReducer'
 import Message from './Message'
 import ShowMessage from './ShowMessage'
 
-const Main = () => {
+const Main1 = () => {
   return (
     <div className="main-content">
-      <UserProvider>
-          <Profile />
-      </UserProvider>
       <ContextUserReducer>
-        <Message />
         <ShowMessage />
       </ContextUserReducer>
     </div>
   )
 }
 
-export default Main
+export default Main1
